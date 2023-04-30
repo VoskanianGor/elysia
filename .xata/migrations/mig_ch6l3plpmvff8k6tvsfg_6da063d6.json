@@ -1,0 +1,19 @@
+{
+  "id": "mig_ch6l3plpmvff8k6tvsfg",
+  "parentID": "mig_ch6l3jpluvirip07fpr0",
+  "checksum": "1:6da063d60b96835e5c8410608eb0e731abfcbbca0a69cd1626d919c21c10313a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "author",
+          "type": "link",
+          "link": {
+            "table": "Users"
+          }
+        },
+        "table": "Posts2"
+      }
+    }
+  ]
+}

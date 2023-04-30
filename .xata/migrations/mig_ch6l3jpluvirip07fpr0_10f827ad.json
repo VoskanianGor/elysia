@@ -1,0 +1,18 @@
+{
+  "id": "mig_ch6l3jpluvirip07fpr0",
+  "parentID": "mig_ch6l3e5pmvff8k6tvcd0",
+  "checksum": "1:10f827adb817a47c7c28085f8ad4f86007bbd4553645d63e9fa2e0733e524d5c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "createdAt",
+          "type": "datetime",
+          "notNull": true,
+          "defaultValue": "now"
+        },
+        "table": "Posts2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mig_ch6l3thluvirip07g22g",
+  "parentID": "mig_ch6l3plpmvff8k6tvsfg",
+  "checksum": "1:06e022df8561bb2ac985b6f7ee38ce15d06e04f42c13407226be84a34d9776f9",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "author",
+        "table": "Posts2"
+      }
+    }
+  ]
+}

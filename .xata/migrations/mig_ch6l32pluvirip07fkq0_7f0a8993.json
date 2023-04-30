@@ -1,0 +1,18 @@
+{
+  "id": "mig_ch6l32pluvirip07fkq0",
+  "parentID": "mig_ch6l2gpluvirip07fkp0",
+  "checksum": "1:7f0a8993377b557c573ee10e15fb2349f2454c4571ab9612d2bdb2b58a70f4aa",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "untitled"
+        },
+        "table": "Posts2"
+      }
+    }
+  ]
+}

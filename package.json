@@ -1,0 +1,29 @@
+{
+  "name": "chat2",
+  "version": "1.0.28",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --hot src/index.ts",
+    "migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.2",
+    "@elysiajs/cors": "^0.3.0",
+    "@elysiajs/fn": "^0.4.0",
+    "@elysiajs/static": "^0.3.2",
+    "@prisma/client": "^4.12.0",
+    "@xata.io/client": "^0.23.5",
+    "elysia": "latest",
+    "exhaustive": "^1.1.1",
+    "mongoose": "^7.0.4",
+    "nanoid": "^4.0.2",
+    "prisma": "^4.12.0",
+    "redis-om": "^0.3.6",
+    "ts-pattern": "^4.2.2",
+    "valtio": "^1.10.4"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

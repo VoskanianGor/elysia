@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://VoskanianGor-s-workspace-op6ad5.us-west-2.xata.sh/db/elysia2",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

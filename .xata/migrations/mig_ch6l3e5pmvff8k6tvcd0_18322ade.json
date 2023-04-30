@@ -1,0 +1,18 @@
+{
+  "id": "mig_ch6l3e5pmvff8k6tvcd0",
+  "parentID": "mig_ch6l391luvirip07fl00",
+  "checksum": "1:18322ade82327cb45633adf36bd3cb2d1d29c390e059121c38eddafa443f06ec",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "published",
+          "type": "bool",
+          "notNull": true,
+          "defaultValue": "false"
+        },
+        "table": "Posts2"
+      }
+    }
+  ]
+}
